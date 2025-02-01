@@ -1,0 +1,57 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f8f8;
+  color: #333;
+} /* Red Theme */
+header,
+.cta-button {
+  background-color: #d0021b;
+  color: white;
+  text-align: center;
+  padding: 40px 20px;
+}
+header h1 {
+  margin: 0;
+  font-size: 40px;
+}
+header p {
+  font-size: 18px;
+  margin: 10px 0;
+}
+.cta-button {
+  display: inline-block;
+  padding: 15px 25px;
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 15px;
+}
+.cta-button:hover {
+  background-color: #a00115;
+} /* Sections */
+.container {
+  width: 80%;
+  margin: auto;
+  padding: 40px 0;
+  text-align: center;
+}
+h2 {
+  color: #d0021b;
+} /* Service Boxes */
+.service-box {
+  background: white;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 5px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+} /* Footer */
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
